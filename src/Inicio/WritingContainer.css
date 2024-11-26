@@ -1,0 +1,22 @@
+.writing-container {
+    display: flex;
+    justify-content: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    color: gold;
+    border-right: 0.125rem solid gold;
+    width: fit-content;
+    margin: 1.25rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.writing-container span {
+    animation: blink-caret 0.6s step-end infinite;
+}
+
+@keyframes blink-caret {
+    50% {
+    border-color: transparent;
+    }
+}

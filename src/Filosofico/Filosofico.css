@@ -1,0 +1,34 @@
+.filosofico{
+    padding-left: 2rem;
+}
+.filosofico img{
+    border-radius: 50%;
+    width: 12.5rem;
+}
+.filosofico p{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+.caja-filosofico{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35rem;
+    padding: 2rem 0rem;
+}
+.filosofico .caja-filosofico:nth-child(2n){
+    padding-left: calc(100% - 37rem);
+}
+
+
+/*------------ 480 px ----------------*/
+@media (max-width: 30rem) {
+    .filosofico{
+        padding-left: 1rem;
+    }
+    .caja-filosofico{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 20rem;
+    }
+}
