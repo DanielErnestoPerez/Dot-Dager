@@ -1,7 +1,7 @@
-import { Inicio } from "./Inicio/Inicio"
-import { AcercaDeMi } from "./Acerca_De_Mi/Acerca_De_Mi"
-import { Filosofico } from "./Filosofico/Filosofico"
-import './Index.css'
+import { Inicio } from "./Inicio/Inicio.jsx"
+import { AcercaDeMi } from "./Acerca_De_Mi/Acerca_De_Mi.jsx"
+import { Filosofico } from "./Filosofico/Filosofico.jsx"
+import './index.css'
 
 export function Index() {
     return(
