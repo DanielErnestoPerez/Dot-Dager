@@ -1,6 +1,7 @@
 import { Inicio } from "./Inicio/Inicio"
 import { AcercaDeMi } from "./Acerca_De_Mi/Acerca_De_Mi"
 import { Filosofico } from "./Filosofico/Filosofico"
+import './Index.css'
 
 export function Index() {
     return(
